@@ -6,6 +6,7 @@ import matplotlib.pyplot as plt
 import nlp
 import random
 
+
 def show_history(h):
     epochs_trained = len(h.history['loss'])
     plt.figure(figsize=(16, 6))
